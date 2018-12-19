@@ -148,7 +148,6 @@ def categorize_study(p_value, requirements):
 
     return_value = 0
     calc_value = float(p_value) * float(bs_factor)
-    print('calc_value = {}'.format(calc_value))
 
     if calc_value < 0.05:
         if requirements != 0:
