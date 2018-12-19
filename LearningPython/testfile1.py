@@ -111,4 +111,65 @@ def quadratic_formula(a, b, c):
 
     return [root1, root2]
 
-print("value1 = {}".format(quadratic_formula(2, 16, 1)))
+# print("value1 = {}".format(quadratic_formula(2, 16, 1)))
+
+def update_light(current):
+    # Your code here.
+    #
+    # Test.assert_equals(update_light('green'), 'yellow')
+    # Test.assert_equals(update_light('yellow'), 'red')
+    # Test.assert_equals(update_light('red'), 'green')
+    if current == 'green':
+        next_color = 'yellow'
+    elif current == 'yellow':
+        next_color = 'red'
+    elif current == 'red':
+        next_color = 'green'
+    else:
+        next_color = 'we don''t know, dude'
+
+
+def categorize_study(p_value, requirements):
+    # Your code here.
+    if requirements == 6:
+        bs_factor = 1.0
+    elif requirements == 5:
+        bs_factor = 2.0
+    elif requirements == 4:
+        bs_factor = 4.0
+    elif requirements == 3:
+        bs_factor = 8.0
+    elif requirements == 2:
+        bs_factor = 16.0
+    elif requirements == 1:
+        bs_factor = 32.0
+    elif requirements == 0:
+        bs_factor = 64.0
+
+    return_value = 0
+    calc_value = float(p_value) * float(bs_factor)
+    print('calc_value = {}'.format(calc_value))
+
+    if calc_value < 0.05:
+        if requirements != 0:
+            return_value = "Fine"
+        else:
+            return_value = 'Needs review'
+    elif (0.05 <= calc_value < 0.15) :
+        return_value = "Needs review"
+    elif calc_value > 0.15:
+        return_value = "Pants on fire"
+    return return_value
+
+
+# Test.assert_equals(categorize_study(0.01, 3), "Needs review")
+# Test.assert_equals(categorize_study(0.04, 6), "Fine")
+# Test.assert_equals(categorize_study(0.0001, 0), "Needs review")
+# Test.assert_equals(categorize_study(0.012, 0), "Pants on fire")
+
+print('cat1 = {}'.format(categorize_study(0.01, 3), "Needs review"))
+print('cat2 = {}'.format(categorize_study(0.04, 6), "Fine"))
+print('cat3 = {}'.format(categorize_study(0.0001, 0), "Needs review"))
+print('cat4 = {}'.format(categorize_study(0.012, 0), "Pants on fire"))
+
+
