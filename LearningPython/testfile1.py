@@ -197,8 +197,40 @@ def calculate_grade(scores):
 # test.assert_equals(calculate_grade([50, 60, 70, 80, 90]), "C")
 # test.assert_equals(calculate_grade([50, 55]), "F")
 
-print("grade1 = {}".format(calculate_grade([92, 94, 99])))
-print("grade1 = {}".format(calculate_grade([50, 60, 70, 80, 90])))
-print("grade1 = {}".format(calculate_grade([50, 55])))
+# print("grade1 = {}".format(calculate_grade([92, 94, 99])))
+# print("grade1 = {}".format(calculate_grade([50, 60, 70, 80, 90])))
+# print("grade1 = {}".format(calculate_grade([50, 55])))
+
+# You have a two-dimensional list in the following format:
+#
+# data = [[2, 5], [3, 4], [8, 7]]
+# Each sub-list contains two items, and each item in the sub-lists is an integer.
+#
+# Write a function process_data() that processes each sub-list like so:
+#
+# [2, 5] --> 2 - 5 --> -3
+# [3, 4] --> 3 - 4 --> -1
+# [8, 7] --> 8 - 7 --> 1
+# and then returns the product of all the processed sub-lists: -3 * -1 * 1 --> 3.
+#
+#
+# test.assert_equals(process_data([[2, 5], [3, 4], [8, 7]]), 3)
+# test.assert_equals(process_data([[2, 9], [2, 4], [7, 5]]), 28)
+
+def process_data(data):
+    # Your code here
+    product = 1
+    list_of_values = []
+    for data_list in data:
+        list_of_values.append(data_list[0] - data_list[1])
+    for list_of_value in list_of_values:
+        product *= list_of_value
+    print("product = {}".format(product))
+
+
+print("return1 = {}".format(process_data([[2, 5], [3, 4], [8, 7]])))
+print("return2 = {}".format(process_data([[2, 9], [2, 4], [7, 5]])))
+
+
 
 
