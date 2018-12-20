@@ -165,10 +165,40 @@ def categorize_study(p_value, requirements):
 # Test.assert_equals(categorize_study(0.04, 6), "Fine")
 # Test.assert_equals(categorize_study(0.0001, 0), "Needs review")
 # Test.assert_equals(categorize_study(0.012, 0), "Pants on fire")
+#
+# print('cat1 = {}'.format(categorize_study(0.01, 3), "Needs review"))
+# print('cat2 = {}'.format(categorize_study(0.04, 6), "Fine"))
+# print('cat3 = {}'.format(categorize_study(0.0001, 0), "Needs review"))
+# print('cat4 = {}'.format(categorize_study(0.012, 0), "Pants on fire"))
 
-print('cat1 = {}'.format(categorize_study(0.01, 3), "Needs review"))
-print('cat2 = {}'.format(categorize_study(0.04, 6), "Fine"))
-print('cat3 = {}'.format(categorize_study(0.0001, 0), "Needs review"))
-print('cat4 = {}'.format(categorize_study(0.012, 0), "Pants on fire"))
+def calculate_grade(scores):
+    # Your code here.
+    average_test_score = 0
+    total_scores = 0
+    average_score = 0
+    for score in scores:
+        total_scores += score
+    average_score = float(total_scores/100.0) / float(len(scores))
+
+    if average_score >= 0.90:
+        grade = "A"
+    elif average_score >= 0.80:
+        grade = "B"
+    elif average_score >= 0.70:
+        grade = "C"
+    elif average_score >= 0.60:
+        grade = "D"
+    else:
+        grade = "F"
+
+    return grade
+#
+# test.assert_equals(calculate_grade([92, 94, 99]), "A")
+# test.assert_equals(calculate_grade([50, 60, 70, 80, 90]), "C")
+# test.assert_equals(calculate_grade([50, 55]), "F")
+
+print("grade1 = {}".format(calculate_grade([92, 94, 99])))
+print("grade1 = {}".format(calculate_grade([50, 60, 70, 80, 90])))
+print("grade1 = {}".format(calculate_grade([50, 55])))
 
 
