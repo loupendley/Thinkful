@@ -228,8 +228,17 @@ def process_data(data):
     print("product = {}".format(product))
 
 
-print("return1 = {}".format(process_data([[2, 5], [3, 4], [8, 7]])))
-print("return2 = {}".format(process_data([[2, 9], [2, 4], [7, 5]])))
+# print("return1 = {}".format(process_data([[2, 5], [3, 4], [8, 7]])))
+# print("return2 = {}".format(process_data([[2, 9], [2, 4], [7, 5]])))
+
+def inverse_slice(items, a, b):
+
+      del items[a:b] # remove this element range
+      return items
+
+
+print('Here are the items before the cut {}'.format([12, 14, 63, 72, 55, 24], 2, 4))
+print("Here are the items after the cut {}".format(inverse_slice([12, 14, 63, 72, 55, 24], 2, 4)))
 
 
 
