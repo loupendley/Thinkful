@@ -233,7 +233,7 @@ def process_data(data):
 
 def inverse_slice(items, a, b):
 
-      del items[a:b] # remove this element range
+      del items[a:b]  # remove this element range
       return items
 
 
