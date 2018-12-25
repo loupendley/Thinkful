@@ -21,10 +21,13 @@
 # []
 
 def modes(data):
-    # Your code here.
     mode_json = {}
-    for letter in str(data):
-        # print('letter = {}'.format(letter))
+    if isinstance(data, list) and isinstance(data[0], str):
+        data1 = data[0]
+    else:
+        data1 = data
+
+    for letter in data1:
         try:
             if mode_json[letter]:
                 mode_json[letter] += 1
@@ -37,21 +40,21 @@ def modes(data):
         if mode_json[letter]:
 
             for key, value in mode_json.items():
-                # print("x1234 here is a value {}".format(value))
                 if value >= max_value:
-                    # print("mx found {}".format(value))
                     max_value = value
 
             for key, value in mode_json.items():
-                # print("key={}, value={}".format(key, value))
                 if value == max_value:
-                    # print('we are appending {} to the mode list'.format(key))
                     mode.append(key)
+        else:
+            mode = []
     except:
         x = 1
 
-    if len(mode) == len(data) / 2:
+    if len(mode) == len(data1) / 2 or len(mode) == len(data1):
         mode = []
+    else:
+        mode.sort()
 
     return mode
 
@@ -61,7 +64,11 @@ def modes(data):
     print('mode_json = {}'.format(mode_json))
     print("mode={}".format(mode))
 print("modes with tomato is {}".format(modes("tomato")))
-print("modes with redder is {}".format(modes("redder")))
+print("modes with redder is {}".format(modes(["redder"])))
+print("modes with 1337 is {}".format(modes([1, 3, 3, 7])))
+print("modes with 02346 is {}".format(modes([0, 2, 3, 4, 6])))
+
+
 # test.assert_equals(modes("tomato"), ["o", "t"])
 # test.assert_equals(modes([1, 3, 3, 7]), [3])
     # test.assert_equals(modes(["redder"]), [])
