@@ -1,4 +1,6 @@
-class PartyAnimal:
+# this is the class module file
+
+class PartyAnimal(object):
     x = 0
     name = ''
 

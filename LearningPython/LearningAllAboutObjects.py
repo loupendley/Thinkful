@@ -1,7 +1,16 @@
-#   This is from the book Python For Evrybody, by Charles R. Severance,
+#   This is from the book Python For Everybody, by Charles R. Severance,
 #   Page 178
 
 from party import PartyAnimal
+
+class CricketFan(PartyAnimal):
+    points = 0
+
+    def six(self):
+        self.points = self.points + 6
+        self.party()
+        print(self.name, "just completed {} party, darty points".format(self.points))
+
 
 #     x = 0
 #
@@ -30,26 +39,18 @@ from party import PartyAnimal
 # an.party()
 # PartyAnimal.party(an)
 
-# class PartyAnimal:
-#     x = 0
-#     name = ''
-#
-#     def __init__(self, nam):
-#         self.name = nam
-#         print(self.name, 'constructed')
-#
-#     def party(self):
-#         self.x = self.x + 1
-#         print(self.name, 'attended party number', self.x)
-
-
 
 s = PartyAnimal('Sylvia')
-j = PartyAnimal('Jim')
-
 s.party()
+j = PartyAnimal("Jim")
 j.party()
-s.party()
+print("object \"j\" is now a {}".format(type(j)))
+j = CricketFan('Jim')
+j.party()
+j.six()
+print("object \"j\" is now a {}".format(type(j)))
+print(dir(j))
+
 
 
 
