@@ -4,6 +4,7 @@
 from party import PartyAnimal
 
 class CricketFan(PartyAnimal):
+
     points = 0
 
     def six(self):
@@ -11,11 +12,13 @@ class CricketFan(PartyAnimal):
         self.party()
         print(self.name, "just completed {} party, darty points".format(self.points))
 
+
 p = PartyAnimal('phil')
 x = PartyAnimal("ximena")
 x.add(2300, 'abcd')
+assert isinstance(x, object)
 print(x)
-x.add(PartyAnimal('nikky', 4000),200)
+x.add(PartyAnimal('nikky', 4000), 200)
 m = PartyAnimal('mike', 2300)
 z = PartyAnimal('Zed')
 s = PartyAnimal('sylvia', 1)
