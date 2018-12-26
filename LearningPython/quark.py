@@ -31,11 +31,14 @@ class Quark(object):
 
     # The repr method controls how the object is represented by the
     # print() function and other representations of the object.
+
     def __repr__(self):
         return "{} {} quark with spin of {}".format(self.color, self.flavor, self.spin)
 
 # Now that we have the class set up, let's call Quark() to create two
 # actual instances of quark objects.
+
+
 q1 = Quark("red", "up", 0)
 q2 = Quark("blue", "down", 0)
 

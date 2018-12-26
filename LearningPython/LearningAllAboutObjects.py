@@ -11,36 +11,11 @@ class CricketFan(PartyAnimal):
         self.party()
         print(self.name, "just completed {} party, darty points".format(self.points))
 
-
-#     x = 0
-#
-#     def __init__(self):
-#         print("I am constructed.")
-#
-#     def party(self):
-#         self.x = self.x + 1
-#         print("So far", self.x)
-#
-#     def __del__(self):
-#         print('I am destructed', self.x)
-
-
-# an = PartyAnimal()
-# an.party()
-# an.party()
-# an = 42
-# print('an contains', an)
-# print("the Type of an is {}".format(type(an)))
-# print("the Dir of an is {}".format(dir(an)))
-# print("the type  of an.x is {}".format(type(an.x)))
-# print("the Type of type(an.party) is {}".format(type(an.party)))
-# an.party()
-# an.party()
-# an.party()
-# PartyAnimal.party(an)
-
-
 p = PartyAnimal('phil')
+x = PartyAnimal("ximena")
+x.add(2300, 'abcd')
+print(x)
+x.add(PartyAnimal('nikky', 4000),200)
 m = PartyAnimal('mike', 2300)
 z = PartyAnimal('Zed')
 s = PartyAnimal('sylvia', 1)
