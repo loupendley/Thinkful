@@ -40,17 +40,19 @@ class CricketFan(PartyAnimal):
 # PartyAnimal.party(an)
 
 
-m = PartyAnimal('Mike', 2300)
-s = PartyAnimal('Sylvia', 1)
+p = PartyAnimal('phil')
+m = PartyAnimal('mike', 2300)
+z = PartyAnimal('Zed')
+s = PartyAnimal('sylvia', 1)
 s.party()
 j = PartyAnimal("Jim", 3)
 j.party()
-# print("object \"j\" is now a {}".format(type(j)))
 j = CricketFan('Jim', 100)
 j.party()
 j.six()
 # print("object \"j\" is now a {}".format(type(j)))
 # print(dir(j))
+p = PartyAnimal("Pachuco", 20)
 s.add(m, 10)
 t = PartyAnimal('Ted', 2)
 s.party()
@@ -60,6 +62,7 @@ print(t)
 print(s)
 print(m)
 print(j)
+print(z)
 
 
 

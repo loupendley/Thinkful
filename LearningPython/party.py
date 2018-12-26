@@ -4,19 +4,25 @@ class PartyAnimal(object):
     x = 0
     name = ''
 
-    def __init__(self, nam, x):
-        self.name = nam
-        self.x = x
-        print(self.name, 'constructed')
+    def __init__(self, name, x=1): # If we don't specify parties, assume 1.
+        self.name, self.x = name, x
+        if self.x > 1:
+            partyname = 'parties'
+        else:
+            partyname = 'party'
+        print('{} just started partying at {} {}'.format(str(self.name).capitalize(), self.x, partyname))
 
     def party(self):
-        self.x = self.x + 1
+        self.x += 1
         print(self.name, 'attended party number', self.x)
 
     def add(self, other, x):
         self.x += other.x + x
-        # print("We just added {}'s parties to {}.".format(self.nam, other.nam))
-        print("We just added {} parties to {}".format(self.x, self.name))
+        print("We just added {} parties to {}".format(str(self.x).capitalize(), self.name))
 
     def __repr__(self):
-        return "Party animal {} is at {} parties, dude.".format(self.name, self.x)
+        return "Party animal {} is at {} parties, dude.".format(str(self.name).capitalize(), self.x)
+
+    def __del__(self):
+        print('Party goer {} just *****  PASSED OUT *****, and is out of the game, at {} parties'\
+              .format(str(self.name).capitalize(), self.x))
