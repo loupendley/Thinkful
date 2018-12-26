@@ -15,7 +15,8 @@ class PartyAnimal(object):
 
     def add(self, other, x):
         self.x += other.x + x
+        # print("We just added {}'s parties to {}.".format(self.nam, other.nam))
+        print("We just added {} parties to {}".format(self.x, self.name))
 
     def __repr__(self):
-        return "Party animal {} is at {} parties, dude.".format( self.nam
-                                                                ,self.x)
+        return "Party animal {} is at {} parties, dude.".format(self.name, self.x)

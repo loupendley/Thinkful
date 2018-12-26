@@ -50,13 +50,16 @@ j = CricketFan('Jim', 100)
 j.party()
 j.six()
 # print("object \"j\" is now a {}".format(type(j)))
-print(dir(j))
+# print(dir(j))
 s.add(m, 10)
 t = PartyAnimal('Ted', 2)
 s.party()
 t.add(s, 1000)
 t.party()
-print()
+print(t)
+print(s)
+print(m)
+print(j)
 
 
 
