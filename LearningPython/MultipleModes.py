@@ -20,6 +20,25 @@
 # >>> modes(["redder"])
 # []
 
+def modes_best_solution(data):
+    frequency = {}
+    mode_list = []
+
+    # adds or creates a counter for each character
+    for d in data:
+        print("d = {}".format(d))
+        if d in frequency:
+            frequency[d] += 1
+        else:
+            frequency[d] = 1
+
+    # adds modes from the dictionary to a list, and checks that there is a mode
+    for f in frequency:
+        if frequency[f] == max(frequency.values()) > min(frequency.values()):
+            mode_list.append(f)
+
+    return sorted(mode_list)
+
 def modes(data):
     mode_json = {}
     if isinstance(data, list) and isinstance(data[0], str):
@@ -68,6 +87,10 @@ print("modes with redder is {}".format(modes(["redder"])))
 print("modes with 1337 is {}".format(modes([1, 3, 3, 7])))
 print("modes with 02346 is {}".format(modes([0, 2, 3, 4, 6])))
 
+print("modes_best_solution with tomato is {}".format(modes_best_solution("tomato")))
+print("modes_best_solution with redder is {}".format(modes_best_solution(["redder"])))
+print("modes_best_solution with 1337 is {}".format(modes_best_solution([1, 3, 3, 7])))
+print("modes_best_solution with 02346 is {}".format(modes_best_solution([0, 2, 3, 4, 6])))
 
 # test.assert_equals(modes("tomato"), ["o", "t"])
 # test.assert_equals(modes([1, 3, 3, 7]), [3])

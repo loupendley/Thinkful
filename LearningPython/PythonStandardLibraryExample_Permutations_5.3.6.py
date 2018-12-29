@@ -31,7 +31,7 @@ show_deck(deck)
 
 # Shuffle the deck to randomize the order
 random.shuffle(deck)
-print("\nShuffled deck:", end="")
+print("\nShuffled deck:\n", end="")
 show_deck(deck)
 
 # Deal 4 hands of 5 cards each
@@ -42,13 +42,13 @@ for i in range(0,5):
         h.append(deck.pop())
 
 # She the hands
-print("\nHands:", end="")
+print("\nHands:\n", end="")
 for n, h in enumerate(hands):
-    print("{},".format(n + 1), end="")
+    print("{},\n".format(n + 1), end="")
     for c in h:
         print('{}'.format(c))
     print("\n")
 
 # Show the remaining deck
-print("\nRemaining deck:",end="")
+print("\nRemaining deck:\n",end="")
 show_deck(deck)
