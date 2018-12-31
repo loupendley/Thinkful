@@ -17,4 +17,4 @@ def reformat_poem(poem):
 
 poem = "Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated."
 # print('poem={}, and\nnew poem={}'.format(poem, reformat_poem(poem)))
-print("poem_new = {}".format(reformat_poem(poem)))
+print("poem_new =\n{}".format(reformat_poem(poem)))
