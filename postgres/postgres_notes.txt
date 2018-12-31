@@ -1,0 +1,4 @@
+30-Dec-2018	I just installed Postgres onto my Raspberry Pi, and these are my notes.
+
+I followed the notes on this web page:
+ https://opensource.com/article/17/10/set-postgres-database-your-raspbrry-pi
