@@ -3,3 +3,5 @@
 *$py.class
 .ipynb_checkpoints
 .idea/
+__init__.py
+venv/*
