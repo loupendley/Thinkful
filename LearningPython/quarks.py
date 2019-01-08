@@ -1,5 +1,3 @@
-
-
 class Quark(object):
 
     """
@@ -39,7 +37,7 @@ class Quark(object):
 
     def __init__(self, color, flavor):
         try:
-            assert color  in ['red', 'blue', 'green']
+            assert color in ['red', 'blue', 'green']
         except AssertionError:
             raise AssertionError("Invalid Quark color encountered, {}.".format(color))
 
@@ -52,33 +50,13 @@ class Quark(object):
         self.flavor = flavor
         self.baryon_number = 1.0/3.0
 
-        # self.quark_check()
-
     def __repr__(self):
-        return "Quark has color of {}, and flavor of {}, and baryon_number of {}".format(self.color, self.flavor, self.baryon_number)
-
-    # def quark_check(celf):
-    #     print("we are in quark_check")
-    #     try:
-    #         # assert self.color   == 'red'  ['red', 'blue', 'green'], "invalid color"
-    #         print('self.color = {}'.format(self.color))
-    #         assert self.color == 'red', "Invalid color"
-    #         assert self.flavor  in ['up', 'down', 'strange', 'charm', 'top', 'bottom'], "Invalid flavor"
-    #         print('This is a valid Quark objectl')
-    #         return True
-    #
-    #     except AssertionError as error:
-    #         print('Quark check fails')
-    #         return False
-    #
-    #     except:
-    #         print('Invalid Quark object')
-    #         return False
+        return "Quark has color of {}, and flavor of {}, and baryon_number of {}".format(self.color,
+                                                                                         self.flavor,
+                                                                                         self.baryon_number)
 
     def interact(self, other):
-        print("within interact, self.color was {}, and other.color was {}.".format(self.color, other.color))
-        other.color, self.color  = self.color, other.color
-        print("after interact, self.color was {}, and other.color was {}.".format(self.color, other.color))
+        other.color, self.color = self.color, other.color
 
 
 print("let us start now")
