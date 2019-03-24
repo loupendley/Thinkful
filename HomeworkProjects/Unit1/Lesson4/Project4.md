@@ -35,7 +35,7 @@ To prevent cheating, a teacher writes three versions of a test. She stacks the t
 
   
 **Analysis:** 
-1. stuff1
-1. stuff2
-1. stuff3    
+1. Bias in assignment:  
+    1. When the teacher put the 3 stacks of tests, A, B, and C, she allowed the students to decide the group to which they belong.  This was a mistake.  What she should have done, was to shuffle the test groups into 1 large stack, A, then B, and then C, and let the students take the next test in the stack.  This would have been more representative.
+    1. The students that cheated could have taken test B, and cheated between themselves.  The teacher did not think of that option. 
    
