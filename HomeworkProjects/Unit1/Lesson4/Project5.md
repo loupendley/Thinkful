@@ -14,7 +14,7 @@ Following these steps, this could be a huge success:
 1.  Provide all employees the chance to participate in the progrm:
     1.  Receive a FitBit tracking device
     1.  Company sponsored FitBit account
-    1.  Request employees to wear the Fitbit for the first month, and change nothing in their activity level.  This would be the before picture of their health.  Inform the employees of this so that they understand it is in their best interest to not change their health habits during this month.  This would be the A part of the A/B test.
+    1.  Request employees to wear the Fitbit for the first month, and change nothing in their activity level.  This would be the before picture of their health.  Inform the employees of this so that they understand it is in their best interest to not change their health habits during this month.  This would be the A component of the A/B test.
     1.  Set the no-activity-change period as the employee benchmark.  
     1.  We will track the number of employees that have cardio fitness levels improve in the first 3 months.  This would be the B component of the A/B test.
           1.  If 20% of the employees improve their cardio fitness by at least 1 level, then the plan will be a success.
