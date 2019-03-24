@@ -19,9 +19,10 @@ In the past, the Jedi have had difficulty with public relations. They send two e
 A company with work sites in five different countries has sent you data on employee satisfaction rates for workers in Human Resources and workers in Information Technology. Most HR workers are concentrated in three of the countries, while IT workers are equally distributed across worksites. The company requests a report on satisfaction for each job type. You calculate average job satisfaction for HR and for IT and present the report.
   
 **Analysis:** 
-1. stuff1
-1. stuff2
-1. stuff3    
+1. Bias in assignment:  This fails in several points:
+    1. Comparing Human Resources satisfaction rates with Information Technology workers is not a valid comparison.  The two groups are very different, work differently, interact differently, and have a completely different skill set.
+    1. Comparing workers in different countries is another assignment bias - they may be totally different in so many ways, culture, language, religion, local customs, that this could be another problem with which to contend.
+    1. The other source of bias could be from the fact that Human Resources tends to work at corporate, and the IT works could be at customer sites, or in remote call centers is an issue.  
    
 When people install the Happy Days Fitness Tracker app, they are asked to "opt in" to a data collection scheme where their level of physical activity data is automatically sent to the company for product research purposes. During your interview with the company, they tell you that the app is very effective because after installing the app, the data show that people's activity levels rise steadily.
   
