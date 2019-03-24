@@ -27,9 +27,9 @@ A company with work sites in five different countries has sent you data on emplo
 When people install the Happy Days Fitness Tracker app, they are asked to "opt in" to a data collection scheme where their level of physical activity data is automatically sent to the company for product research purposes. During your interview with the company, they tell you that the app is very effective because after installing the app, the data show that people's activity levels rise steadily.
   
 **Analysis:** 
-1. stuff1
-1. stuff2
-1. stuff3    
+1. Sampling bias:  This campaign poses a large sampling bias.  It limits the users to people that:  1.  Are willing to use a bit of technology, and 2.  Are willing to do become physically active.  This is going to be a very limited group of people, as they need to be willing, or at least be active enough physically, and technologically savvy, and public enough to share this with an outside company, yet another privacy issue, PII, and potentially HIPAA compliance issues.
+1. Bias in assignment:  We have no way of knowing if any of the members of the program are similar in any other way to another group.
+1. Bias in setting:  People that sign up to use a fitness tracker, may change their behavior, to look better physically than they were previously.  This may cause them to change their behavior, in which case, the environment for the survey has changed.
    
 To prevent cheating, a teacher writes three versions of a test. She stacks the three versions together, first all copies of Version A, then all copies of Version B, then all copies of Version C. As students arrive for the exam, each student takes a test. When grading the test, the teacher finds that students who took Version B scored higher than students who took either Version A or Version C. She concludes from this that Version B is easier, and discards it.
 
