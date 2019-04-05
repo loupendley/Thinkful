@@ -1,4 +1,4 @@
-## Unit 2 Lession 1 Project 3
+## Unit 2 Lesson 1 Project 3
 
 ## Drill: Formulating good research questions
 
