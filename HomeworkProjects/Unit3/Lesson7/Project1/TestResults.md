@@ -389,3 +389,26 @@ parameters={'C': 1e+20, 'solver': 'lbfgs', 'max_iter': 100}:
  running with path=A 
  ####  Now running pipeline with:  tfidf=TfidfVectorizer and clf=LogisticRegression
 parameters={'C': 1e+20, 'solver': 'lbfgs', 'max_iter': 100}:
+ ###  Metrics accuracy score = 76.24% with LogisticRegression
+ Steps information: [('tfidf', TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.8, max_features=50000, min_df=0.1,
+        ngram_range=(1, 3), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words='english', strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)), ('clf', LogisticRegression(C=1e+20, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='lbfgs',
+          tol=0.0001, verbose=0, warm_start=False))]
+ 2019-06-24 22:26:05: In: sentiment_analyzer Finished running pipeline with:
+LogisticRegression:  
+ 2019-06-24 22:26:05: In: sentiment_analyzer 
+
+
+End 
+ 2019-06-24 22:26:16: In: sentiment_analyzer Begin
+
+
+ running with path=A 
+ ####  Now running pipeline with:  tfidf=TfidfVectorizer and clf=MultinomialNB
+parameters={}:
