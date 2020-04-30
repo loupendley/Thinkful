@@ -1916,3 +1916,26 @@ End
  2020-04-30 08:25:20: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
  2020-04-30 08:27:07: In: <module> Ending KMeans2 
  2020-04-30 08:27:07: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a46c48210>, 'use_idf': True}
+ 2020-04-30 12:37:18: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-30 12:37:19: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'ReleaseYear', 'accident',
+       'action', 'adventure', 'affair', 'age', 'agent',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=299) 
+ 2020-04-30 12:37:19: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 43.49%
+ ###  Metrics test accuracy score = 43.49%
+ ### Cross validation scores:  [0.43604748 0.43688346 0.42618291 0.42752048 0.43428094]
+ ### Accuracy of Model with Cross Validation average is: 43.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-30 12:38:46: In: run_rf End run_rfr part 1 
+ 2020-04-30 12:38:46: In: <module> Beginning DBSCAN 
+ 2020-04-30 12:38:46: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-30 12:42:01: In: <module> Ending DBSCAN 
+ 2020-04-30 12:42:01: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-30 12:49:36: In: <module> Ending KMeans2 
+ 2020-04-30 12:49:36: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
