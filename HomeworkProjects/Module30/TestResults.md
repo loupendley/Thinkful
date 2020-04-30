@@ -1491,3 +1491,428 @@ starting AffinityPropagation
 
 
 Begin 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a1fbda450>, 'use_idf': True}
+ 2020-04-27 14:38:59: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ ### Cross validation scores:  [0.37088906 0.37498033 0.37922895 0.37724268 0.37897387]
+ ### Accuracy of Model with Cross Validation average is: 37.63%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 14:44:29: In: run_rf End run_rfr part 1 
+ ## We are plotting the elbow method!
+ 2020-04-27 14:44:29: In: do_the_elbow 
+
+
+Begin 
+ 2020-04-27 14:45:24: In: do_the_elbow 
+
+
+End 
+ 2020-04-27 14:46:27: In: run_affinity_propagation 
+
+
+starting AffinityPropagation 
+ 2020-04-27 14:46:27: In: run_affinity_propagation 
+
+
+Begin 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a307ac910>, 'use_idf': True}
+ 2020-04-27 14:55:35: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ ### Cross validation scores:  [0.37088906 0.37498033 0.37922895 0.37724268 0.37897387]
+ ### Accuracy of Model with Cross Validation average is: 37.63%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 15:01:02: In: run_rf End run_rfr part 1 
+ ## We are plotting the elbow method!
+ 2020-04-27 15:01:02: In: do_the_elbow 
+
+
+Begin 
+ 2020-04-27 15:01:55: In: do_the_elbow 
+
+
+End 
+ 2020-04-27 15:02:59: In: run_affinity_propagation 
+
+
+starting AffinityPropagation 
+ params are {'damping': 0.5, 'max_iter': 50, 'convergence_iter': 15, 'copy': True, 'preference': None, 'affinity': 'euclidean', 'verbose': False}
+ 2020-04-27 15:02:59: In: run_affinity_propagation 
+
+
+Begin 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a206d2590>, 'use_idf': True}
+ 2020-04-27 15:34:03: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ ### Cross validation scores:  [0.37088906 0.37498033 0.37922895 0.37724268 0.37897387]
+ ### Accuracy of Model with Cross Validation average is: 37.63%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 15:39:26: In: run_rf End run_rfr part 1 
+ ## We are plotting the elbow method!
+ 2020-04-27 15:39:26: In: do_the_elbow 
+
+
+Begin 
+ 2020-04-27 15:40:19: In: do_the_elbow 
+
+
+End 
+ 2020-04-27 15:41:20: In: run_affinity_propagation 
+
+
+starting AffinityPropagation 
+ params are {'damping': 0.5, 'max_iter': 50, 'convergence_iter': 15, 'copy': True, 'preference': None, 'affinity': 'euclidean', 'verbose': False}
+ 2020-04-27 15:41:20: In: run_affinity_propagation 
+
+
+Begin 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a221a7490>, 'use_idf': True}
+ 2020-04-27 18:17:20: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ ### Cross validation scores:  [0.37088906 0.37498033 0.37922895 0.37724268 0.37897387]
+ ### Accuracy of Model with Cross Validation average is: 37.63%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 18:22:43: In: run_rf End run_rfr part 1 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ ### Cross validation scores:  [0.37088906 0.37498033 0.37922895 0.37724268 0.37897387]
+ ### Accuracy of Model with Cross Validation average is: 37.63%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 19:04:29: In: run_rf End run_rfr part 1 
+ # Inside run_rf, parameters passed were: {'n_estimators': 500, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.60%
+ ###  Metrics test accuracy score = 36.60%
+ # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 10267347}
+ ### Training score = 100.00%
+ ### Test score = 36.03%
+ ###  Metrics test accuracy score = 36.03%
+ ### Cross validation scores:  [0.36726987 0.36805665 0.37450826 0.37063267 0.36559647]
+ ### Accuracy of Model with Cross Validation average is: 36.92%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 19:11:00: In: run_rf End run_rfr part 1 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a46c8da90>, 'use_idf': True}
+ 2020-04-27 21:33:56: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 1957}
+ ### Training score = 100.00%
+ ### Test score = 36.94%
+ ###  Metrics test accuracy score = 36.94%
+ ### Cross validation scores:  [0.3595594  0.36490952 0.36380803 0.37016053 0.37519673]
+ ### Accuracy of Model with Cross Validation average is: 36.67%
+ In conf_matrix_function: y_train.shape[0]=5607
+ In conf_matrix_function: y_pred_class.shape[0]=5607
+ 2020-04-27 21:36:27: In: run_rf End run_rfr part 1 
+ 2020-04-27 21:37:35: In: training_test_set In training_test_set, train_size=0.85, and test_size=0.15 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a22cc6210>, 'use_idf': True}
+ 2020-04-27 21:56:04: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427}
+ ### Training score = 100.00%
+ ### Test score = 37.93%
+ ###  Metrics test accuracy score = 37.93%
+ ### Cross validation scores:  [0.36900184 0.36983782 0.35880288 0.37318174 0.3638796 ]
+ ### Accuracy of Model with Cross Validation average is: 36.69%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-27 21:57:06: In: run_rf End run_rfr part 1 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a4708ced0>, 'use_idf': True}
+ 2020-04-27 22:01:38: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ # Inside run_rf, parameters passed were: {'n_estimators': 800, 'random_state': 20200427}
+ ### Training score = 100.00%
+ ### Test score = 38.14%
+ ###  Metrics test accuracy score = 38.14%
+ ### Cross validation scores:  [0.3750209  0.38053837 0.36565792 0.37368333 0.36923077]
+ ### Accuracy of Model with Cross Validation average is: 37.28%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-27 22:09:57: In: run_rf End run_rfr part 1 
+ 2020-04-28 19:15:09: In: <module> Beginning DBSCAN 
+ 2020-04-28 19:17:34: In: <module> Ending DBSCAN 
+ 2020-04-28 19:19:08: In: <module> Beginning DBSCAN 
+ 2020-04-28 19:22:50: In: <module> Ending DBSCAN 
+ 2020-04-28 19:29:32: In: <module> Beginning DBSCAN 
+ 2020-04-28 19:32:35: In: <module> Ending DBSCAN 
+ 2020-04-28 19:49:33: In: <module> Beginning DBSCAN 
+ 2020-04-28 19:54:39: In: <module> Ending DBSCAN 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 50, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a5dfc1d10>, 'use_idf': True}
+ 2020-04-28 19:58:03: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 19:58:04: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 36.62%
+ ###  Metrics test accuracy score = 36.62%
+ ### Cross validation scores:  [0.35579335 0.35897007 0.34843672 0.36549072 0.35819398]
+ ### Accuracy of Model with Cross Validation average is: 35.74%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 19:58:54: In: run_rf End run_rfr part 1 
+ 2020-04-28 19:58:54: In: <module> Beginning DBSCAN 
+ 2020-04-28 19:58:54: In: <module> Running DBSCAN with parameters: {'eps': 2.0, 'min_samples': 5} 
+ 2020-04-28 20:03:14: In: <module> Ending DBSCAN 
+ 2020-04-28 20:05:50: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:05:50: In: <module> Running DBSCAN with parameters: {'eps': 4.0, 'min_samples': 5} 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 50, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1a26148210>, 'use_idf': True}
+ 2020-04-28 20:11:17: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 20:11:18: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 36.62%
+ ###  Metrics test accuracy score = 36.62%
+ ### Cross validation scores:  [0.35579335 0.35897007 0.34843672 0.36549072 0.35819398]
+ ### Accuracy of Model with Cross Validation average is: 35.74%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 20:12:06: In: run_rf End run_rfr part 1 
+ 2020-04-28 20:12:06: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:12:06: In: <module> Running DBSCAN with parameters: {'eps': 4.0, 'min_samples': 5} 
+ 2020-04-28 20:17:22: In: <module> Ending DBSCAN 
+ 2020-04-28 20:31:24: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 36.62%
+ ###  Metrics test accuracy score = 36.62%
+ 2020-04-28 20:32:39: In: <module> columns in X_train are Index(['revenue', 'Rev_div_Budget', 'lead_actor_le', 'runtime', 'budget',
+       'about', 'after', 'all', 'an', 'are', 'at', 'be', 'but', 'by', 'family',
+       'film', 'find', 'friend', 'from', 'get', 'ha', 'have', 'he', 'her',
+       'him', 'into', 'it', 'life', 'love', 'man', 'new', 'not', 'on', 'one',
+       'only', 'out', 'she', 'story', 'take', 'that', 'their', 'them', 'they',
+       'this', 'time', 'two', 'up', 'wa', 'when', 'who', 'will', 'woman',
+       'world', 'year', 'young'],
+      dtype='object') 
+ 2020-04-28 20:32:39: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 36.62%
+ ###  Metrics test accuracy score = 36.62%
+ ### Cross validation scores:  [0.35579335 0.35897007 0.34843672 0.36549072 0.35819398]
+ ### Accuracy of Model with Cross Validation average is: 35.74%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 20:33:28: In: run_rf End run_rfr part 1 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 50, 'norm': 'l2', 'smooth_idf': True, 'tokenizer': <__main__.LemmaTokenizer object at 0x1aad177650>, 'use_idf': True}
+ 2020-04-28 20:34:30: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 20:34:33: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'about', 'after', 'all',
+       'an', 'are', 'at', 'be', 'but', 'by', 'family', 'film', 'find',
+       'friend', 'from', 'get', 'ha', 'have', 'he', 'her', 'him', 'into', 'it',
+       'life', 'love', 'man', 'new', 'not', 'on', 'one', 'only', 'out', 'she',
+       'story', 'take', 'that', 'their', 'them', 'they', 'this', 'time', 'two',
+       'up', 'wa', 'when', 'who', 'will', 'woman', 'world', 'year', 'young'],
+      dtype='object') 
+ 2020-04-28 20:34:33: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 35.75%
+ ###  Metrics test accuracy score = 35.75%
+ ### Cross validation scores:  [0.35144625 0.35629493 0.34174887 0.35127905 0.35217391]
+ ### Accuracy of Model with Cross Validation average is: 35.06%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 20:35:23: In: run_rf End run_rfr part 1 
+ 2020-04-28 20:35:23: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:35:23: In: <module> Running DBSCAN with parameters: {'eps': 4.0, 'min_samples': 5} 
+ 2020-04-28 20:40:47: In: <module> Ending DBSCAN 
+ 2020-04-28 20:43:51: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:43:51: In: <module> Running DBSCAN with parameters: {'eps': 2.0, 'min_samples': 10} 
+ 2020-04-28 20:47:54: In: <module> Ending DBSCAN 
+ 2020-04-28 20:50:08: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:50:08: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 20:52:46: In: <module> Ending DBSCAN 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 200, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a4bbe61d0>, 'use_idf': True}
+ 2020-04-28 20:57:47: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 20:57:48: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'adventure', 'agent',
+       'american', 'army', 'attempt', 'away', 'band',
+       ...
+       'way', 'wife', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=203) 
+ 2020-04-28 20:57:48: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 41.64%
+ ###  Metrics test accuracy score = 41.64%
+ ### Cross validation scores:  [0.40745695 0.41498077 0.40461461 0.41180405 0.40468227]
+ ### Accuracy of Model with Cross Validation average is: 40.87%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 20:59:01: In: run_rf End run_rfr part 1 
+ 2020-04-28 20:59:02: In: <module> Beginning DBSCAN 
+ 2020-04-28 20:59:02: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 21:02:04: In: <module> Ending DBSCAN 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a5fe8c610>, 'use_idf': True}
+ 2020-04-28 21:04:26: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 21:04:26: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'accident', 'action',
+       'adventure', 'affair', 'age', 'agent', 'america',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=298) 
+ 2020-04-28 21:04:26: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.35%
+ ###  Metrics test accuracy score = 42.35%
+ ### Cross validation scores:  [0.42902525 0.42835646 0.41631834 0.4181575  0.41906355]
+ ### Accuracy of Model with Cross Validation average is: 42.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 21:06:06: In: run_rf End run_rfr part 1 
+ 2020-04-28 21:06:06: In: <module> Beginning DBSCAN 
+ 2020-04-28 21:06:06: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 21:09:18: In: <module> Ending DBSCAN 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a56993b50>, 'use_idf': True}
+ 2020-04-28 21:31:39: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-28 21:31:40: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'accident', 'action',
+       'adventure', 'affair', 'age', 'agent', 'america',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=298) 
+ 2020-04-28 21:31:40: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.35%
+ ###  Metrics test accuracy score = 42.35%
+ ### Cross validation scores:  [0.42902525 0.42835646 0.41631834 0.4181575  0.41906355]
+ ### Accuracy of Model with Cross Validation average is: 42.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-28 21:33:12: In: run_rf End run_rfr part 1 
+ 2020-04-28 21:33:13: In: <module> Beginning DBSCAN 
+ 2020-04-28 21:33:13: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 21:36:32: In: <module> Ending DBSCAN 
+ 2020-04-28 21:37:45: In: <module> Beginning DBSCAN 
+ 2020-04-28 21:37:45: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 21:40:06: In: <module> Beginning DBSCAN 
+ 2020-04-28 21:40:06: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 21:43:24: In: <module> Ending DBSCAN 
+ ## We are plotting the elbow method!
+ 2020-04-28 21:43:24: In: do_the_elbow 
+
+
+Begin 
+ 2020-04-28 21:45:41: In: do_the_elbow 
+
+
+End 
+ 2020-04-28 21:56:58: In: <module> Beginning DBSCAN 
+ 2020-04-28 21:56:58: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-28 22:00:10: In: <module> Ending DBSCAN 
+ ## We are plotting the elbow method!
+ 2020-04-28 22:00:10: In: do_the_elbow 
+
+
+Begin 
+ 2020-04-28 22:02:17: In: do_the_elbow 
+
+
+End 
+ 2020-04-28 22:05:01: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
+ 2020-04-29 20:29:44: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 20:33:26: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 20:35:10: In: <module> Ending KMeans2 
+ 2020-04-29 20:36:13: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 20:38:01: In: <module> Ending KMeans2 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a2e405d10>, 'use_idf': True}
+ 2020-04-29 20:40:48: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-29 20:40:48: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'accident', 'action',
+       'adventure', 'affair', 'age', 'agent', 'america',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=298) 
+ 2020-04-29 20:40:48: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.35%
+ ###  Metrics test accuracy score = 42.35%
+ ### Cross validation scores:  [0.42902525 0.42835646 0.41631834 0.4181575  0.41906355]
+ ### Accuracy of Model with Cross Validation average is: 42.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-29 20:42:26: In: run_rf End run_rfr part 1 
+ 2020-04-29 20:42:27: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 20:44:21: In: <module> Ending KMeans2 
+ 2020-04-29 21:41:17: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 21:44:10: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 21:46:01: In: <module> Ending KMeans2 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a3ee5a350>, 'use_idf': True}
+ 2020-04-29 21:47:43: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-29 21:47:44: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'accident', 'action',
+       'adventure', 'affair', 'age', 'agent', 'america',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=298) 
+ 2020-04-29 21:47:44: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.35%
+ ###  Metrics test accuracy score = 42.35%
+ ### Cross validation scores:  [0.42902525 0.42835646 0.41631834 0.4181575  0.41906355]
+ ### Accuracy of Model with Cross Validation average is: 42.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-29 21:49:16: In: run_rf End run_rfr part 1 
+ 2020-04-29 21:49:18: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 21:51:10: In: <module> Ending KMeans2 
+ 2020-04-29 21:56:27: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 21:59:25: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:00:26: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:02:16: In: <module> Ending KMeans2 
+ 2020-04-29 22:03:41: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:04:36: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:05:21: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:07:12: In: <module> Ending KMeans2 
+ 2020-04-29 22:07:56: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:09:52: In: <module> Ending KMeans2 
+ 2020-04-29 22:11:04: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:12:51: In: <module> Ending KMeans2 
+ 2020-04-29 22:15:52: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:17:48: In: <module> Ending KMeans2 
+ 2020-04-29 22:32:52: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:34:40: In: <module> Ending KMeans2 
+ 2020-04-29 22:36:14: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:38:03: In: <module> Ending KMeans2 
+ 2020-04-29 22:38:31: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:40:19: In: <module> Ending KMeans2 
+ 2020-04-29 22:41:28: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-29 22:43:28: In: <module> Ending KMeans2 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.31, 'min_df': 0.0125, 'max_features': 500, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a31f9a0d0>, 'use_idf': True}
+ 2020-04-30 07:51:33: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-04-30 07:51:34: In: <module> columns in X_train are Index(['Rev_div_Budget', 'lead_actor_le', 'runtime', 'accident', 'action',
+       'adventure', 'affair', 'age', 'agent', 'america',
+       ...
+       'wife', 'win', 'woman', 'work', 'working', 'world', 'year', 'yearold',
+       'york', 'young'],
+      dtype='object', length=298) 
+ 2020-04-30 07:51:34: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.35%
+ ###  Metrics test accuracy score = 42.35%
+ ### Cross validation scores:  [0.42902525 0.42835646 0.41631834 0.4181575  0.41906355]
+ ### Accuracy of Model with Cross Validation average is: 42.22%
+ In conf_matrix_function: y_train.shape[0]=7476
+ In conf_matrix_function: y_pred_class.shape[0]=7476
+ 2020-04-30 07:53:16: In: run_rf End run_rfr part 1 
+ 2020-04-30 07:53:16: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-30 07:55:08: In: <module> Ending KMeans2 
+ 2020-04-30 07:55:41: In: <module> Beginning DBSCAN 
+ 2020-04-30 07:55:41: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-30 07:58:54: In: <module> Ending DBSCAN 
+ 2020-04-30 07:58:54: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-30 08:00:43: In: <module> Ending KMeans2 
+ 2020-04-30 08:00:43: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
+ 2020-04-30 08:22:10: In: <module> Beginning DBSCAN 
+ 2020-04-30 08:22:10: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-04-30 08:25:20: In: <module> Ending DBSCAN 
+ 2020-04-30 08:25:20: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
+ 2020-04-30 08:27:07: In: <module> Ending KMeans2 
+ 2020-04-30 08:27:07: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
