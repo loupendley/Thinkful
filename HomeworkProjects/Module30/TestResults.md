@@ -1939,3 +1939,28 @@ End
  2020-04-30 12:42:01: In: <module> Running KMeans2 with parameters: {'n_clusters': 11, 'random_state': 20200427} 
  2020-04-30 12:49:36: In: <module> Ending KMeans2 
  2020-04-30 12:49:36: In: <module> Running GMM with parameters: {'n_components': 11, 'random_state': 20200427} 
+ 2020-05-03 00:02:01: In: <module> Beginning DBSCAN 
+ 2020-05-03 00:02:01: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-05-03 00:03:50: In: <module> Running with UMAP with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-05-03 00:08:58: In: <module> Beginning DBSCAN 
+ 2020-05-03 00:08:58: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-05-03 00:10:43: In: <module> Running with UMAP with parameters: {'n_neighbors': 5, 'min_dist': 0.3, 'metric': 'correlation'} 
+ 2020-05-03 00:12:19: In: <module> Beginning DBSCAN 
+ 2020-05-03 00:12:19: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-05-03 00:14:05: In: <module> Running with UMAP with parameters: {'n_neighbors': 5, 'min_dist': 0.3, 'metric': 'correlation'} 
+ 2020-05-03 00:17:31: In: <module> Beginning DBSCAN 
+ 2020-05-03 00:17:31: In: <module> Running DBSCAN with parameters: {'eps': 0.5, 'min_samples': 20} 
+ 2020-05-03 00:19:16: In: <module> Running with TSNE with parameters: {'n_components': 2, 'verbose': 1, 'perplexity': 40, 'n_iter': 300} 
+ 2020-05-04 19:06:40: In: <module> Starting Clustering test 
+ 2020-05-04 19:06:40: In: <module> Running dbscan clustering with PCA 
+ 2020-05-04 19:07:57: In: <module> Starting Clustering test 
+ 2020-05-04 19:07:57: In: <module> Running dbscan clustering with PCA 
+ 2020-05-04 19:11:06: In: <module> Running kmeans clustering with PCA 
+ 2020-05-04 19:12:51: In: <module> Running gmm clustering with PCA 
+ 2020-05-04 19:18:14: In: <module> Running dbscan clustering with tsne 
+ 2020-05-04 19:33:14: In: <module> Running kmeans clustering with tsne 
+ 2020-05-04 19:46:44: In: <module> Running gmm clustering with tsne 
+ 2020-05-04 20:03:32: In: <module> Running dbscan clustering with umap 
+ 2020-05-04 20:07:03: In: <module> Running kmeans clustering with tsne 
+ 2020-05-04 20:09:16: In: <module> Running gmm clustering with tsne 
+ 2020-05-04 20:15:16: In: <module> Ending Clustering test 
