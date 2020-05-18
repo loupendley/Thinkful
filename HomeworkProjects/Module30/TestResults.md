@@ -2468,3 +2468,131 @@ and umap with parameters: {'n_neighbors': 5, 'min_dist': 0.3, 'metric': 'correla
  2020-05-16 23:35:26: In: <module> Starting Clustering test 
  2020-05-16 23:36:08: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
  2020-05-16 23:37:12: In: <module> Ending Clustering test 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a6f3128d0>, 'use_idf': True}
+ 2020-05-17 20:51:46: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 20:51:46: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 20:51:46: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ In conf_matrix_function: y_train.shape[0]=5595
+ In conf_matrix_function: y_pred_class.shape[0]=5595
+ 2020-05-17 20:52:01: In: run_rf End run_rfr part 1 
+ 2020-05-17 20:52:02: In: <module> Starting Clustering test 
+ 2020-05-17 20:52:44: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 20:53:49: In: <module> Ending Clustering test 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a5efedf90>, 'use_idf': True}
+ 2020-05-17 21:03:12: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 21:03:13: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 21:03:13: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ In conf_matrix_function: y_train.shape[0]=5595
+ In conf_matrix_function: y_pred_class.shape[0]=5595
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a906d1a90>, 'use_idf': True}
+ 2020-05-17 21:18:45: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 21:18:46: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 21:18:46: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1aa20f6490>, 'use_idf': True}
+ 2020-05-17 21:19:25: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 21:19:25: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 21:19:25: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ In conf_matrix_function: y_train.shape[0]=5595
+ In conf_matrix_function: y_pred_class.shape[0]=5595
+ 2020-05-17 21:19:41: In: run_rf End run_rfr part 1 
+ 2020-05-17 21:19:41: In: <module> Starting Clustering test 
+ 2020-05-17 21:20:23: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 21:21:31: In: <module> Ending Clustering test 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a2ce9d410>, 'use_idf': True}
+ 2020-05-17 21:23:20: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 21:23:20: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 21:23:20: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ 2020-05-17 21:23:35: In: run_rf End run_rfr part 1 
+ 2020-05-17 21:23:36: In: <module> Starting Clustering test 
+ 2020-05-17 21:24:18: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 21:25:22: In: <module> Ending Clustering test 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a6799f9d0>, 'use_idf': True}
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a73f96350>, 'use_idf': True}
+ 2020-05-17 21:29:17: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 21:29:17: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 21:29:17: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ 2020-05-17 21:29:34: In: run_rf End run_rfr part 1 
+ 2020-05-17 21:29:34: In: <module> Starting Clustering test 
+ 2020-05-17 21:30:15: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 21:31:29: In: cluster_dr_plotit Running kmeans with parameters: {'n_clusters': 11, 'random_state': 20200427}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 21:32:37: In: cluster_dr_plotit Running gmm with parameters: {'n_components': 2, 'random_state': 20200427}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 21:37:42: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and tsne with parameters: {'n_components': 2, 'verbose': 1, 'perplexity': 40, 'n_iter': 300, 'random_state': 20200427} 
+ 2020-05-17 21:42:20: In: cluster_dr_plotit Running kmeans with parameters: {'n_clusters': 11, 'random_state': 20200427}<br />and tsne with parameters: {'n_components': 2, 'verbose': 1, 'perplexity': 40, 'n_iter': 300, 'random_state': 20200427} 
+ 2020-05-17 21:46:41: In: cluster_dr_plotit Running gmm with parameters: {'n_components': 2, 'random_state': 20200427}<br />and tsne with parameters: {'n_components': 2, 'verbose': 1, 'perplexity': 40, 'n_iter': 300, 'random_state': 20200427} 
+ 2020-05-17 21:48:49: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and umap with parameters: {'n_neighbors': 10, 'min_dist': 0.3, 'metric': 'correlation', 'random_state': 20200427} 
+ 2020-05-17 21:50:26: In: cluster_dr_plotit Running kmeans with parameters: {'n_clusters': 11, 'random_state': 20200427}<br />and umap with parameters: {'n_neighbors': 10, 'min_dist': 0.3, 'metric': 'correlation', 'random_state': 20200427} 
+ 2020-05-17 21:52:05: In: cluster_dr_plotit Running gmm with parameters: {'n_components': 2, 'random_state': 20200427}<br />and umap with parameters: {'n_neighbors': 10, 'min_dist': 0.3, 'metric': 'correlation', 'random_state': 20200427} 
+ 2020-05-17 21:53:12: In: <module> Ending Clustering test 
+ Running tfidf witht parameters={'lowercase': True, 'max_df': 0.25, 'min_df': 100, 'max_features': 100, 'norm': 'l2', 'smooth_idf': True, 'stop_words': 'english', 'tokenizer': <__main__.LemmaTokenizer object at 0x1a3058bcd0>, 'use_idf': True}
+ 2020-05-17 22:54:13: In: training_test_set In training_test_set, train_size=0.8, and test_size=0.2 
+ 2020-05-17 22:54:14: In: <module> columns in X_train are Index(['lead_actor_le', 'runtime', 'ReleaseYear', 'ReleaseMonth', 'ReleaseDay',
+       'ReleaseMonthDay', ''', ':', 'american', 'based',
+       ...
+       'want', 'war', 'way', 'wife', 'woman', 'work', 'world', 'year', 'york',
+       'young'],
+      dtype='object', length=106) 
+ 2020-05-17 22:54:14: In: run_rf # Inside run_rf, parameters passed were: {'n_estimators': 100, 'random_state': 20200427} 
+ ### Training score = 100.00%
+ ### Test score = 42.97%
+ ###  Metrics test accuracy score = 42.97%
+ ### Cross validation scores:  [0.40393208 0.38516533 0.39678284 0.3896336  0.41733691]
+ ### Accuracy of Model with Cross Validation average is: 39.86%
+ 2020-05-17 22:54:30: In: run_rf End run_rfr part 1 
+ 2020-05-17 22:54:30: In: <module> Starting Clustering test 
+ 2020-05-17 22:55:10: In: cluster_dr_plotit Running dbscan with parameters: {'eps': 0.5, 'min_samples': 20}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
+ 2020-05-17 22:56:21: In: cluster_dr_plotit Running kmeans with parameters: {'n_clusters': 11, 'random_state': 20200427}<br />and pca with parameters: {'n_components': 2, 'random_state': 20200427} 
